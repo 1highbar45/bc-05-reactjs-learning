@@ -1,0 +1,43 @@
+1/ cài đặt project :
+  npx create-react-app ten-app
+2/ chạy project :
+  npm run start
+3/ flow code của ReactJS
+     index.html ( chú ý id="rooot" )
+  => index.js ( chú ý <App /> )
+  => App.js ( chú ý return của function App )
+4/ ReactJS không đọc được html , mà chỉ đọc được JSX
+5/ JSX giúp cho chúng ta viết html và js vào một file duy nhất
+6/ lợi ích và tiêu chí để chia component :
+    - tái sử dụng lại ( ưu tiên )
+    - dể quản lý và mở rộng ứng dụng
+7/ có 2 loại component :
+  - dạng class
+  - dạng function
+8/ có 2 dạng component :
+      - class
+      - function
+9/ data-binding : là cách đưa biến hay thuộc tính js ra ngoài html
+10/ state :
+      - dùng để lưu những dữ liệu của component
+      - giúp đồng bộ UI và Value của component
+11/ props :
+      - props là thuộc tính của component ( property )
+      - props dùng để truyền data từ component -> component
+bonus :
+12/ để biết state lưu ở component nào:
+      - component đó phải chứa các nút xử lý sự kiện
+      - component đó phải chứa UI để hiển thị ra màn hình 
+1/ một webside thường có 2 dạng :
+  - single page application ( chuyễn trang mà ko bị load )
+  - multiple page application (chuyễn trang mà bị load)
+2/ về SEO thì multiple page application tốt hơn single page application
+3/ reactjs (single page application) thì ko SEO tốt nhưng
+ NEXTJS (https://nextjs.org/) giúp reactjs SEO tốt hơn
+
+
+- bắt buộc phải dùng state
+- install thư viện bootstrap jquery popper:
+npm i bootstrap popper.js jquery
+- install thư viện node-sass để dùng sass: 
+npm i node-sass
